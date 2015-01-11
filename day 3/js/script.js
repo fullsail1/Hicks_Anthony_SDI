@@ -100,7 +100,23 @@ console.log(counter);
 counter *= 4; //counter = counter *4;
 console.log(counter);
 
+//string - is any text variable
+//used to distinguish between variable name and random text
 
+
+var kermit ="light green";
+var frogName = "kermit";
+
+console.log(frogName);
+
+//double quote or single?
+
+var phrase = "i don't fold";
+console.log(phrase);
+
+// multi-lines by using \n - new line character
+var phrase2 = "he said i might quit \n i will not lose.";
+console.log(phrase2);
 
 
 
