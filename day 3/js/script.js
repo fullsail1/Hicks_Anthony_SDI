@@ -118,6 +118,39 @@ console.log(phrase);
 var phrase2 = "he said i might quit \n i will not lose.";
 console.log(phrase2);
 
+//boolean
+// kind of like a light (switch on or off)
+//true or false - not "true" or "false"
+
+
+var yes = true;
+
+var nope= false;
+
+//this is not a boolean
+var wrong = "true";
+
+//order of operations
+//PEMDAS - please excuse my dear aunt sally
+//parenthesis, exponents, multiplication, division, addition, subtraction
+
+
+
+//find quiz averages
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 70;
+
+//average - add them and divide how many there are
+var average = (quiz1+quiz2+quiz3)/3;
+console.log(average);
+
+//do not overuse parenthesis
+//var perimeter = length*2 + width*2;
+
+
+
+
 
 
 
