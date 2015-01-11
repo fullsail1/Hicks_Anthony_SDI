@@ -24,7 +24,7 @@ console.log(" each person had " + slicePerPerson + " slices to eat at the party 
 var totalSlices = slicePerPizza * numberOfPizza;
 var sparkySlice = totalSlices%partyPopulation
 
-console.log("Sparky got " + sparkyslice + " slices of pizza to eat");
+console.log("Sparky got " + sparkySlice + " slices of pizza to eat");
 
 
 //Question 2
