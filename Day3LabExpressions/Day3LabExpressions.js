@@ -22,7 +22,7 @@ console.log(" each person had " + slicePerPerson + " slices to eat at the party 
 // question 1 part II
 
 var totalSlices = slicePerPizza * numberOfPizza;
-var sparkyslice = totalSlices%partyPopulation
+var sparkySlice = totalSlices%partyPopulation
 
 console.log("Sparky got " + sparkyslice + " slices of pizza to eat");
 
@@ -46,4 +46,15 @@ console.log("You have spent total of " + "$" + totalGroceryBill + " on groceries
 
 //Question 2 part 2
 
+var originalPrice = 5000;
+var discountPercentage = 65;
+var descriptionOfItems = " sound system ";
+var salesTax = 7;
 
+var discountPrice = originalPrice * (discountPercentage/100);
+var priceWithTax = discountPrice + discountPrice * (salesTax/100);
+var priceWithoutTax = discountPrice;
+
+//calculation
+
+console.log(" Your " + descriptionOfItems + " was originally $" + originalPrice + " but after a discount % of " + discountPercentage +  " it is now $" + priceWithoutTax +  " without tax, and $" + priceWithTax +  " with tax ");
