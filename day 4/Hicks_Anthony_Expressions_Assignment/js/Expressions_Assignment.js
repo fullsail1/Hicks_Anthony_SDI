@@ -12,8 +12,8 @@ Expressions_Assignment
 //internal storage
 
 var helmetsIssued;
-var bikeRentalFee = 5;
-var vestIssued = 5;
+var rentalFee = 5;
+var vestIssued;
 var lateReturnFee = 4;
 var equipmentArray = [40, 40, 40, 0, 0, 0]; //Bikes In Stock, Helmets In Stock, Vests In Stock
 var totalEquipIssued;
@@ -42,7 +42,7 @@ console.log(vestIssued);
  console.log( "the total amount of equipment issued = " + totalEquipIssued + " pieces ");
  equipmentArray[6]=totalEquipIssued;
 
- totalEquipCost = 5*(bikeRented) + 5*(helmetsIssued) +5*(vestIssued);
+ totalEquipCost = rentalFee * bikeRented + rentalFee * helmetsIssued + rentalFee * vestIssued;
  console.log(" the total amount of monies made from equipment rental = " + " $ "+ totalEquipCost);
  equipmentArray[7]= totalEquipCost;
 
