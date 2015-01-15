@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ed6d532-f8ec-4211-bb79-4f79a76ccfd0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day 4/Hicks_Anthony_Expressions_Assignment/js/Expressions_Assignment.js" afterPath="$PROJECT_DIR$/day 4/Hicks_Anthony_Expressions_Assignment/js/Expressions_Assignment.js" />
-    </list>
+    <list default="true" id="5ed6d532-f8ec-4211-bb79-4f79a76ccfd0" name="Default" comment="" />
     <ignored path="Hicks_Anthony_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,11 +70,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Expressions_Assignment.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Expressions_Assignment.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day 4/Hicks_Anthony_Expressions_Assignment/js/Expressions_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94170403" vertical-offset="165" max-vertical-offset="960">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="960">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day5_conditional.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day5/js/day5_conditional.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20179372" vertical-offset="0" max-vertical-offset="669">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day5_conditional.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day5/day5_conditional.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -112,26 +130,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day4_prompting.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day 4/day4_prompting.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day 4/day4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="288">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -156,6 +154,8 @@
         <option value="$PROJECT_DIR$/day 4/js/day4_casting.js" />
         <option value="$PROJECT_DIR$/day 4/Hicks_Anthony_Expressions_Assignment/Expressions_assignment.html" />
         <option value="$PROJECT_DIR$/day 4/Hicks_Anthony_Expressions_Assignment/js/Expressions_Assignment.js" />
+        <option value="$PROJECT_DIR$/day5/day5_conditional.html" />
+        <option value="$PROJECT_DIR$/day5/js/day5_conditional.js" />
       </list>
     </option>
   </component>
@@ -163,8 +163,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-240" />
-    <option name="y" value="23" />
+    <option name="x" value="383" />
+    <option name="y" value="22" />
     <option name="width" value="1328" />
     <option name="height" value="766" />
   </component>
@@ -197,6 +197,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Hicks_Anthony_SDI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hicks_Anthony_SDI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hicks_Anthony_SDI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hicks_Anthony_SDI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hicks_Anthony_SDI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -419,7 +451,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-240" y="23" width="1328" height="766" extended-state="0" />
+    <frame x="383" y="22" width="1328" height="766" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -569,8 +601,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day 4/Hicks_Anthony_Expressions_Assignment/js/Expressions_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94170403" vertical-offset="165" max-vertical-offset="960">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="960">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/day5_conditional.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/js/day5_conditional.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20179372" vertical-offset="0" max-vertical-offset="669">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
