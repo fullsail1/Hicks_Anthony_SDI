@@ -39,18 +39,18 @@ console.log(vestIssued);
 
 
  totalEquipIssued = (bikeRented) + (helmetsIssued) + (vestIssued);
- console.log(totalEquipIssued);
+ console.log( "the total amount of equipment issued = " + totalEquipIssued + " pieces ");
  equipmentArray[6]=totalEquipIssued;
 
- totalEquipCost = 5*(bikeRented) + 5*(vestIssued);
- console.log(totalEquipCost);
+ totalEquipCost = 5*(bikeRented) + 5*(helmetsIssued) +5*(vestIssued);
+ console.log(" the total amount of monies made from equipment rental = " + " $ "+ totalEquipCost);
  equipmentArray[7]= totalEquipCost;
 
  //update array
 equipmentArray[0]= equipmentArray[0]- bikeRented;
  equipmentArray[1]= equipmentArray[1]-helmetsIssued;
- equipmentArray[2]= equipmentArray[2]-vestIssued
- console.log(equipmentArray);
+ equipmentArray[2]= equipmentArray[2]-vestIssued;
+ console.log("your daily inventory and sales report is as follows " + equipmentArray);
 
 
 
