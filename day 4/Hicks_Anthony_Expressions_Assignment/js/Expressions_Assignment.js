@@ -50,7 +50,7 @@ console.log(vestIssued);
 equipmentArray[0]= equipmentArray[0]- bikeRented;
  equipmentArray[1]= equipmentArray[1]-helmetsIssued;
  equipmentArray[2]= equipmentArray[2]-vestIssued;
- console.log("your daily inventory and sales report is as follows " + equipmentArray);
+ console.log("your daily inventory and sales report is as follows: Bikes In Stock:"  + equipmentArray[0]);
 
 
 

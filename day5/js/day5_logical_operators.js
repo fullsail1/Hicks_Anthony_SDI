@@ -49,5 +49,5 @@ false||false = false
 
  }else{
   console.log("stick with your small tv!");
-  
+
  }
