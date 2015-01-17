@@ -4,7 +4,7 @@ Anthony Hicks
 SDI Campus
 1/13/2015
 Conditional Worksheet
- */
+ */ /*
 //alert("testing again");
 
 //last chance for gas
@@ -64,10 +64,29 @@ distanceOnTank = gasEfficiency * gallonsInTanks
   console.log("number does not exist");
  }
 
-
+*/
 
 //question 3
 
 //movie tickets
 
- 
+ // variables
+
+
+ var age = prompt("How old are you please");
+ var movieTime = prompt("What movie time would you like");
+ var fullTicket = 12;
+ var discountTicket = 7;
+
+
+ //code
+ if(age<=10||age>=55){
+  console.log("Ticket price is " + discountTicket);
+
+ }else if(movieTime>=3 && movieTime<=5){
+  console.log("Ticket price is " + discountTicket);
+
+ }else {
+  console.log("Ticket price is " + fullTicket);
+
+ }
