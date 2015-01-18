@@ -48,5 +48,26 @@ console.log(num3);
 num3 = Math.ceil(num3);
 console.log(num3);
 
+//random
+//which returns a number between 0 and 1
+
+var num4 = Math.round(Math.random()*53);
+console.log(num4);
+
+//random number between 2 number
+//math.random() * (max-min) + min
+var num5 = Math.round(Math.random()*(80-50)+50);
+console.log(num5);
+
+var arrOfItems = ["chips Ahoy", "Oreos", "E.L", "Thin mints"];
+
+var randomCookie = Math.round(Math.random()* arrOfItems.length);
+
+console.log("my current favorite is " + arrOfItems[randomCookie]);
+
+
+
+
+
 
 
