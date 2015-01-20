@@ -1,7 +1,7 @@
 //alert("JavaScript works!");
 
 //get outside temperature
-
+/*
 var airtemp = parseInt(prompt("what's the temperature outside?", "65"));
 //airtemp = parseInt(airtemp);
 
@@ -25,11 +25,11 @@ if (airtemp>= 85) {
     console.log("we're going to the movies.");
     
 }
-
+*/
 //round
 //normal rounding .5 and up
 
-var num1 = 9.54444;
+var num1 = 9.54444;   
 console.log(num1);
 num1 = Math.round(num1);
 console.log(num1);
@@ -48,7 +48,7 @@ console.log(num3);
 num3 = Math.ceil(num3);
 console.log(num3);
 
-//random
+//random 
 //which returns a number between 0 and 1
 
 var num4 = Math.round(Math.random()*53);
@@ -61,9 +61,12 @@ console.log(num5);
 
 var arrOfItems = ["chips Ahoy", "Oreos", "E.L", "Thin mints"];
 
-var randomCookie = Math.round(Math.random()* arrOfItems.length);
+var randomCookie = Math.floor(Math.random()* arrOfItems.length);
 
 console.log("my current favorite is " + arrOfItems[randomCookie]);
+
+console.log(Math.PI.toFixed(2));
+
 
 
 
