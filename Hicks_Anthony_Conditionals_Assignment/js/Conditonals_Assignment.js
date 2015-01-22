@@ -92,12 +92,16 @@ promoPointCalculator[1]=awards;
 
  //tally totalPoints
 promoPointCalculator[0] = promoPointCalculator[0]/3;
- promoPointCalculator[1]= promoPointCalculator[1]
+ promoPointCalculator[1]= promoPointCalculator[1]*.5;
+ promoPointCalculator[2]= promoPointCalculator[2]*2.5;
 totalPoints = promoPointCalculator[0]+promoPointCalculator[1]+promoPointCalculator[3];
 
+if (totalPoints>cutoffScore){
+console.log(" soldier meets minimum cutoff score  = " +  cutoffScore + " by scoring "+totalPoints + " for promotion. Send to board ");
 
-console.log(" soldier meets minimum " +  totalPoints + " for promotion. Send to board "
-console.log("soldier does not meet minimum " + totalPoints + " for promotion"
+}else
+ console.log("soldier does not meet minimum cutoff score = " + cutoffScore + " by scoring " + totalPoints + " for promotion");
+ 
 /*
  var ptProfile;
  console.log(ptProfile)
