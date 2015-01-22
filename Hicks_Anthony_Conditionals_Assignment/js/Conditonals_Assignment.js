@@ -95,7 +95,13 @@ promoPointCalculator[1]=awards;
 promoPointCalculator[0] = promoPointCalculator[0]/3;
  promoPointCalculator[1]= promoPointCalculator[1]*.5;
  promoPointCalculator[2]= promoPointCalculator[2]*2.5;
-totalPoints = (ptTest+awards+weaponsQual);
+rawScore = promoPointCalculator[0]+promoPointCalculator[1]+promoPointCalculator[2]
+ //we want the raw score to be rounded to the nearest number
+console.log(Math.round(rawScore.toFixed(2)));
+
+//total points = the rounded raw score
+ totalPoints = Math.round(rawScore.toFixed(2));
+
  console.log(promoPointCalculator)
 
  //test total points output

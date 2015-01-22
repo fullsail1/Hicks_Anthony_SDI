@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5ed6d532-f8ec-4211-bb79-4f79a76ccfd0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hicks_Anthony_Conditionals_Assignment/js/Conditonals_Assignment.js" afterPath="$PROJECT_DIR$/Hicks_Anthony_Conditionals_Assignment/js/Conditonals_Assignment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day8/Day8_validate_prompts.html" afterPath="$PROJECT_DIR$/Day8/Day8_validate_prompts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day8/js/Day8_validating_prompts" afterPath="$PROJECT_DIR$/Day8/js/Day8_validating_prompts" />
     </list>
     <ignored path="Hicks_Anthony_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +61,8 @@
       <file leaf-file-name="Conditonals_Assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hicks_Anthony_Conditionals_Assignment/js/Conditonals_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0862309" vertical-offset="1021" max-vertical-offset="1740">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.18776079" vertical-offset="630" max-vertical-offset="1830">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,8 +171,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-120" />
-    <option name="y" value="26" />
+    <option name="x" value="2" />
+    <option name="y" value="22" />
     <option name="width" value="1482" />
     <option name="height" value="816" />
   </component>
@@ -593,7 +595,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-120" y="26" width="1482" height="816" extended-state="0" />
+    <frame x="2" y="22" width="1482" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1007,8 +1009,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hicks_Anthony_Conditionals_Assignment/js/Conditonals_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0862309" vertical-offset="1021" max-vertical-offset="1740">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.18776079" vertical-offset="630" max-vertical-offset="1830">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>

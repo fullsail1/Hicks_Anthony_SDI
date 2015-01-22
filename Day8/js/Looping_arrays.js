@@ -2,6 +2,6 @@
 Anthony Hicks
 SDI Campus
 1/13/2015
-Prompting
+looping arrays
  */
 alert("testing again");
