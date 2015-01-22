@@ -14,6 +14,7 @@ Conditional Assignment
  var ptTest;
  var weaponsQual;
  var cutoffScore =200;
+ var rawScore;
  var totalPoints;
  var promoPointCalculator = [ ];
 
@@ -94,30 +95,16 @@ promoPointCalculator[1]=awards;
 promoPointCalculator[0] = promoPointCalculator[0]/3;
  promoPointCalculator[1]= promoPointCalculator[1]*.5;
  promoPointCalculator[2]= promoPointCalculator[2]*2.5;
-totalPoints = promoPointCalculator[0]+promoPointCalculator[1]+promoPointCalculator[3];
+totalPoints = (ptTest+awards+weaponsQual);
+ console.log(promoPointCalculator)
+
+ //test total points output
+ console.log(totalPoints);
+
+
 
 if (totalPoints>cutoffScore){
 console.log(" soldier meets minimum cutoff score  = " +  cutoffScore + " by scoring "+totalPoints + " for promotion. Send to board ");
 
 }else
  console.log("soldier does not meet minimum cutoff score = " + cutoffScore + " by scoring " + totalPoints + " for promotion");
- 
-/*
- var ptProfile;
- console.log(ptProfile)
- ptProfile = confirm("does soldier have profile? " + " press ok for true an cancel for false");
-
-
- //Soldier could have profile which can alter score due to inability to complete an event.
- //prompt for profile
-
- ptProfile = confirm("does soldier have profile? " + " press ok for true an cancel for false");
-
- //when prompted
-
- }
- if(ptProfile === true){
-
- console.log(" Records indicate soldier profile status = " + ptProfile + " Thus pt test score will be accessed." );
-
-
