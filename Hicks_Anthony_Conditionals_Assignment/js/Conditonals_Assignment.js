@@ -13,7 +13,7 @@ Conditional Assignment
  var awards;
  var ptTest;
  var weaponsQual;
- var cutoffScore =200;
+ var cutoffScore =170;
  var rawScore;
  var totalPoints;
  var promoPointCalculator = [ ];
