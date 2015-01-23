@@ -2,6 +2,6 @@
 Anthony Hicks
 SDI Campus
 1/13/2015
-looping arrays
+Day 8 return
  */
 alert("testing again");

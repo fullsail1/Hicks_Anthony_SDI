@@ -33,3 +33,22 @@ function calcArea(w,h) {// parameters inserted
      console.log("the area is " + area);
 }
 calcArea(10,20);
+calcArea(5,4);
+
+
+function dogyears(humanAge) {
+    //code
+    //dog year == human age*7
+    var dogAge = humanAge*7
+    console.log("Dog Age is " + dogAge);
+    
+}
+
+dogyears(10);
+dogyears(6);
+
+var userAge = prompt(" how old are you?")
+dogyears(Number(userAge));
+
+
+

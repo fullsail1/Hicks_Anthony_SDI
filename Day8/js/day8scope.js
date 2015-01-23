@@ -32,5 +32,13 @@ function calcPeri(){
     console.log("inside of function the perimeter is " + perimeter)
 }
 
-calcPeri();
+
+
+console.log(" before call "+ width);
+
+ calcPeri();
+ 
+ console.log("after call " + width);
+ 
+ 
 
