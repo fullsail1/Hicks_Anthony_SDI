@@ -114,3 +114,14 @@ console.log(" soldier meets minimum cutoff score  = " +  cutoffScore + " by scor
 
 }else
  console.log("soldier does not meet minimum cutoff score = " + cutoffScore + " by scoring " + totalPoints + " for promotion");
+
+ //testing my code
+
+ // I put in the following scores ptTest = 276; awards = 165; weapQual = 26
+
+ // scores were stored in promoPointCalculator as 276, 165, 26
+ //these scores are further broken down into raw scores as they have to be converted to a 0 -100 scale
+ //raw scores are 92, 82.5, 65 note the array fields convert the scores to raw numbers
+ //raw score is tallied the rounded to the nearest whole number
+ //raw score feeds the totalPoints variable
+ //the 
