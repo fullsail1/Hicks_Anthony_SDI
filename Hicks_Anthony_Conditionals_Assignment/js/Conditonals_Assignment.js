@@ -124,4 +124,5 @@ console.log(" soldier meets minimum cutoff score  = " +  cutoffScore + " by scor
  //raw scores are 92, 82.5, 65 note the array fields convert the scores to raw numbers
  //raw score is tallied the rounded to the nearest whole number
  //raw score feeds the totalPoints variable
- //the 
+ //the totalPoints variable is set against the cutoffScore
+ //if totalPoints <cutoffScore..no promote; if totalPoints>cutoffScore...promote!

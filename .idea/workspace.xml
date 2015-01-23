@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5ed6d532-f8ec-4211-bb79-4f79a76ccfd0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hicks_Anthony_Conditionals_Assignment/js/Conditonals_Assignment.js" afterPath="$PROJECT_DIR$/Hicks_Anthony_Conditionals_Assignment/js/Conditonals_Assignment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day8/js/day8scope.js" afterPath="$PROJECT_DIR$/Day8/js/day8scope.js" />
     </list>
     <ignored path="Hicks_Anthony_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,8 +59,8 @@
       <file leaf-file-name="Conditonals_Assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hicks_Anthony_Conditionals_Assignment/js/Conditonals_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9582754" vertical-offset="1201" max-vertical-offset="1980">
-              <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.47844228" vertical-offset="1231" max-vertical-offset="2010">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1008,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hicks_Anthony_Conditionals_Assignment/js/Conditonals_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9582754" vertical-offset="1201" max-vertical-offset="1980">
-          <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.47844228" vertical-offset="1231" max-vertical-offset="2010">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>
