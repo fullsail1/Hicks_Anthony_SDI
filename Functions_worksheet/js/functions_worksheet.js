@@ -15,8 +15,9 @@ functions worksheet
 
 function dailyTake(cf, rf )
 {//cars rented , rental fee
-    var cf;
-    var rf;
+    var cf =parseInt(prompt("Please enter daily rental tally sheet"));;
+    var rf = parseInt(prompt("enter you rental payment"));
+
     var take;
     
     take = cf * rf //calculation
@@ -32,5 +33,7 @@ dailyTake(198, 60 );//call your function and insert the arguments
 
 //prompt user
 
-var cf = ParseInt(prompt("Please enter daily rental tally sheet"))
-var rf = parseInt(prompt("enter you rental payment"))
+
+
+dailyTake(120,60);
+dailyTake(290,86);

@@ -17,6 +17,7 @@ Conditional Assignment
  var rawScore;
  var totalPoints;
  var promoPointCalculator = [ ];
+ var ps;
 
 
  // calculate points
@@ -34,7 +35,7 @@ while(isNaN(ptTest)){
      ptTest=parseInt(prompt(" INVALID SCORE!! MUST BE 0 - 300 ONLY!! "))
       console.log(" pt test score = " + ptTest);
 
-     } else if(ptTest>=180 ) { //ternary1
+     } else if(ptTest>=180 ) {
 
 
 
@@ -77,7 +78,7 @@ promoPointCalculator[1]=awards;
 
  //weapons
  weaponsQual = parseInt(prompt(" enter weaponsQual score here: " ));//prompt 3
- while (isNaN(weaponsQual) ||weaponsQual > 41|| weaponsQual<0) { // ternary 2
+ while (isNaN(weaponsQual) ||weaponsQual > 41|| weaponsQual<0) {
      weaponsQual = parseInt(prompt("invalid number please re enter " + " number must be between 0 - 40 "));
      //check to see if weapon score is saved
 
@@ -95,25 +96,35 @@ promoPointCalculator[1]=awards;
 promoPointCalculator[0] = promoPointCalculator[0]/3;
  promoPointCalculator[1]= promoPointCalculator[1]*.5;
  promoPointCalculator[2]= promoPointCalculator[2]*2.5;
-rawScore = promoPointCalculator[0]+promoPointCalculator[1]+promoPointCalculator[2]
+rawScore = promoPointCalculator[0]+promoPointCalculator[1]+promoPointCalculator[2];
  //we want the raw score to be rounded to the nearest number
 console.log(Math.round(rawScore.toFixed(2)));
 
 //total points = the rounded raw score
  totalPoints = Math.round(rawScore.toFixed(2));
+ rawScore=totalPoints;
 
- console.log(promoPointCalculator)
+ console.log(promoPointCalculator);
 
  //test total points output
  console.log(totalPoints);
 
+ //checking my score going into the ternary 1 as a check
+ console.log(rawScore);
+ console.log(cutoffScore);
 
 
-if (totalPoints>cutoffScore){
-console.log(" soldier meets minimum cutoff score  = " +  cutoffScore + " by scoring "+totalPoints + " for promotion. Send to board ");
 
-}else
- console.log("soldier does not meet minimum cutoff score = " + cutoffScore + " by scoring " + totalPoints + " for promotion");
+  ps  = (totalPoints>cutoffScore) ? //ternary 1
+
+
+" soldier meets minimum cutoff score  = " +  cutoffScore + " by scoring "+totalPoints + " for promotion. Send to board "
+
+:
+ "soldier does not meet minimum cutoff score = " + cutoffScore + " by scoring " + totalPoints + " for promotion";
+
+ console.log(ps);
+
 
  //testing my code
 
