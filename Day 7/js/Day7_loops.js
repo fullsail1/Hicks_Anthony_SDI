@@ -28,3 +28,18 @@ while (counter<20){
     counter++;
     
 }
+
+
+//do while loop
+//the code will run AT LEAST once before checking the condition
+
+var i = 0;
+
+do{
+    //this code will run before the condition is checked
+    //it will also run as long as the condition is true
+    console.log("the number is " +i);
+    i++;
+}while(i<10);
+
+

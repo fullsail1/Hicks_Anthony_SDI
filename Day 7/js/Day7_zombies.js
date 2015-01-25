@@ -6,6 +6,10 @@
 
 var numZombies;
 var numBites;
+var numDays;
+var daysTakes;
+
+
 
 
 
