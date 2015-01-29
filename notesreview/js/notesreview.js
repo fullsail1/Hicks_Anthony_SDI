@@ -51,7 +51,7 @@ function lordFunction(radius, cost, slices) {
     //calc the cost per area
     var areaCost = pizzaSqInCost(cost,area);
     //var costPerSlice 
-    
+    var costPerSlice = 
 }
 //create a function that calculates the area of the pizza
 
