@@ -1,4 +1,4 @@
-
+ 
  /*
 Anthony Hicks
 SDI Campus
@@ -32,7 +32,7 @@ while (counter<20){
 
 //do while loop
 //the code will run AT LEAST once before checking the condition
-
+ 
 var i = 0;
 
 do{
